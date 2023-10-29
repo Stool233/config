@@ -1,15 +1,15 @@
 {
-    "apiVersion": "test.stool233.io/v1alpha1",
-    "kind": "Resource",
-    "metadata": {
-        "namespace": "default",
-        "name": "bar",
-        "labels": {
-            "bar": "baz"
-        },
-        "annotations": {}
+  "apiVersion": "test.stool233.io/v1alpha1",
+  "kind": "Resource",
+  "metadata": {
+    "namespace": "default",
+    "name": "bar",
+    "labels": {
+      "bar": "baz"
     },
-    "spec": {
-      "foo": "baz"
-    }
+    "annotations": {}
+  },
+  "spec": {
+    "foo": "bar"
+  }
 }
