@@ -21,7 +21,7 @@ flags:
       rollout: 80
 segments:
 - key: internal-users
-  name: Internal Users
+  name: internal-users
   constraints:
   - type: STRING_COMPARISON_TYPE
     property: organization
